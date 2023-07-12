@@ -1,0 +1,38 @@
+*{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+img{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+li{
+    padding-top: 3px;
+}
+
+a:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(249, 230, 250);
+}
