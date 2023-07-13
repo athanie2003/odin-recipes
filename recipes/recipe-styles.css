@@ -1,23 +1,49 @@
 *{
-    background-color: rgb(233, 166, 43);
-    color:rgb(255, 243, 205)
+    line-height: 1.5;
+    color:rgb(219, 175, 27);
+    box-sizing: border-box;
 }
 
-h1{
+body{
+    background-color: rgb(224, 168, 122);
+}
+
+.recipe-content{
+    text-align: left;
+    padding: 20px;
+}
+
+.recipe-card.feature{
+    border: 2px solid rgb(192, 138, 36);
+}
+
+.recipe-card{
+    width: 700px;
     text-align: center;
-    color: rgb(255, 250, 240);
+    background-color: #fff4dc;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.recipe-card h1{
+    text-align: center;
+    color: rgb(250, 173, 20);
+    margin-top: -10px;
 }
 
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+    width: 75%;
 }
 
 h2{
-    color: rgb(255, 250, 240);
+    color: rgb(250, 173, 20);
 }
 
 p, li{
-    font-size: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
